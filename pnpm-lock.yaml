@@ -98,8 +98,8 @@ devDependencies:
     specifier: ~3.12.7
     version: 3.12.7
   typedoc:
-    specifier: ~0.24.8
-    version: 0.24.8(typescript@4.9.5)
+    specifier: ~0.25.0
+    version: 0.25.0(typescript@4.9.5)
   typescript:
     specifier: ~4.9.5
     version: 4.9.5
@@ -110,8 +110,8 @@ devDependencies:
     specifier: ~4.4.9
     version: 4.4.9(@types/node@20.5.4)
   vitepress:
-    specifier: 1.0.0-beta.7
-    version: 1.0.0-beta.7(@algolia/client-search@4.19.1)(@types/node@20.5.4)(search-insights@2.7.0)
+    specifier: 1.0.0-rc.4
+    version: 1.0.0-rc.4(@algolia/client-search@4.19.1)(@types/node@20.5.4)(search-insights@2.7.0)
   vitest:
     specifier: ~0.34.2
     version: 0.34.2(@vitest/ui@0.34.2)
@@ -5942,12 +5942,12 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typedoc@0.24.8(typescript@4.9.5):
-    resolution: {integrity: sha512-ahJ6Cpcvxwaxfu4KtjA8qZNqS43wYt6JL27wYiIgl1vd38WW/KWX11YuAeZhuz9v+ttrutSsgK+XO1CjL1kA3w==}
-    engines: {node: '>= 14.14'}
+  /typedoc@0.25.0(typescript@4.9.5):
+    resolution: {integrity: sha512-FvCYWhO1n5jACE0C32qg6b3dSfQ8f2VzExnnRboowHtqUD6ARzM2r8YJeZFYXhcm2hI4C2oCRDgNPk/yaQUN9g==}
+    engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
-      typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x
+      typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x || 5.2.x
     dependencies:
       lunr: 2.3.9
       marked: 4.3.0
@@ -6118,8 +6118,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress@1.0.0-beta.7(@algolia/client-search@4.19.1)(@types/node@20.5.4)(search-insights@2.7.0):
-    resolution: {integrity: sha512-P9Rw+FXatKIU4fVdtKxqwHl6fby8E/8zE3FIfep6meNgN4BxbWqoKJ6yfuuQQR9IrpQqwnyaBh4LSabyll6tWg==}
+  /vitepress@1.0.0-rc.4(@algolia/client-search@4.19.1)(@types/node@20.5.4)(search-insights@2.7.0):
+    resolution: {integrity: sha512-JCQ89Bm6ECUTnyzyas3JENo00UDJeK8q1SUQyJYou+4Yz5BKEc/F3O21cu++DnUT2zXc0kvQ2Aj4BZCc/nioXQ==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.5.1
